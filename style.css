@@ -6,7 +6,29 @@ body {
 
 h1 {
     color:grey;
-    font-family:verdana
+    font-family:verdana;
+    font-size: 1.2em;
+}
+
+footer {
+    font-size: 0.8em
+}
+
+label{
+    display: inline-block;
+    float: left;
+    width: 120px;
+    text-align: left;
+}
+
+input {
+  display: inline-block;
+  float: left;
+  width: 90px;
+}
+
+mark {
+    background-color: yellow;
 }
 
 .maindiv {
@@ -15,5 +37,33 @@ h1 {
     width:300px;
     padding:20px;
     border-radius:25px;
-    align:center
+    align-self:center;
+    margin:auto    
 }
+.container{
+    width: 280px;
+    align-self:center;
+    margin:auto;
+    font-weight:600px;
+    line-height:1em;
+    font-size: 0.9em
+}
+
+#rate_val {
+    width: 50px;
+}
+
+#result {
+margin-top: 10px;
+}
+
+
+.container{
+    width: 280px;
+    align-self:center;
+    margin:auto;
+    font-weight:600px;
+    line-height:1em;
+    font-size: 0.9em
+}
+
